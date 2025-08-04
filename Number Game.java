@@ -14,7 +14,7 @@ class Student {
 
     public String toString() {
         return rollNumber + "," + name + "," + grade;
-    }
+    } 
 
     public static Student fromString(String line) {
         String[] parts = line.split(",");
